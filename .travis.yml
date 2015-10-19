@@ -9,3 +9,4 @@ install:
 
 script:
   - py.test src/file.py
+  - py.test -cov=src/file.py
